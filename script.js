@@ -152,7 +152,7 @@ tl2.to(".imgsection", {
 
 // Last Div ANIMATION Of Images
 
-document.querySelectorAll("#pages a").forEach(function(atag){
+document.querySelectorAll("#pages p").forEach(function(atag){
     atag.addEventListener("mousemove" , function(dets){
         gsap.to(".imgchange" , {
             x: dets.target.dataset.index * -100 + "%",
