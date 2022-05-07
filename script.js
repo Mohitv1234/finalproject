@@ -1,5 +1,3 @@
-// First Page Color Contrast Animation
-
 gsap.to("#ccBanner", {
     scrollTrigger: {
         trigger: "#secpage",
@@ -12,8 +10,6 @@ gsap.to("#ccBanner", {
     rotate: 50,
     ease: "Power1.out",
 });
-
-//  Second Page Curved Text Rotate Animation
 
 gsap.to("#cascf", {
     scrollTrigger: {
@@ -71,8 +67,6 @@ gsap.to("#cascen h6", {
     ease: "easeInOut",
     opacity: 1,
 });
-
-// Third Page Poster Animation
 var tl = gsap.timeline({
     scrollTrigger: {
         trigger: "#third",
@@ -101,23 +95,9 @@ tl
     delay: .5,
     duration: 1.2
 }, "a")
-// .to("#poster-one",{
-//     ease: "Power0.easeIn",
-//     duration: 1,
-//     left: "17.5vw",
-//     delay: .5,
-// } , "a")
-// .to("#posters",{
-//     ease: "Power0.easeIn",
-//     duration: 1,
-//     left: "32.5vw",
-//     delay: .5,
-// } , "a")
 .to("#third h6", {
     display: "initial"
 })
-// Fourth Div Animation
-
 var tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: "#fourth",
@@ -150,8 +130,6 @@ tl2.to(".imgsection", {
 
 } ,"a" )
 
-// Last Div ANIMATION Of Images
-
 document.querySelectorAll("#pages p").forEach(function(atag){
     atag.addEventListener("mousemove" , function(dets){
         gsap.to(".imgchange" , {
@@ -161,8 +139,6 @@ document.querySelectorAll("#pages p").forEach(function(atag){
 
     });
 });
-
-// Menu Image Change Animation
 document.querySelectorAll("#menub a").forEach(function(values){
     values.addEventListener("mouseover", function(dets){
         gsap.to(".menuimg" , {
@@ -171,8 +147,6 @@ document.querySelectorAll("#menub a").forEach(function(values){
         })
     });
 });
-// Progress Div 
-
 ScrollTrigger.create({
     onUpdate: function(dets){
         gsap.to("#updline",{
@@ -180,9 +154,6 @@ ScrollTrigger.create({
         })
     }
 });
-
-// Menu List Div
-
 document.querySelector("nav i").addEventListener("click", function(dets){
     document.querySelector("#menud").style.transform = "translateY(0%)";
     document.querySelector("#hero").style.display = "none";

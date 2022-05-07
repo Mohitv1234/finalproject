@@ -220,7 +220,6 @@ nav h2 {
 }
 
 #secpage hr {
-    /* width: 100%; */
     margin-top: 100px;
     background-color: rgb(195, 197, 173);
     border: none;
@@ -421,7 +420,6 @@ nav h2 {
 }
 #menud{
     position: fixed;
-    /* transform: translateY(-100%); */
     transform: translateY(-100%);
     display: flex;
     justify-content: space-evenly;
