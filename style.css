@@ -254,7 +254,6 @@ nav h2 {
     transform: translate(-50%, -50%);
     width: 30vw;
     height: 75vh;
-    border-radius: 10px;
     overflow: hidden;
 }
 #third h6{
@@ -276,7 +275,6 @@ nav h2 {
     width: 30vw;
     margin-left: 20px;
     height: 75vh;
-    border-radius: 10px;
     overflow: hidden;
 }
 #poster-two img{
@@ -288,7 +286,6 @@ nav h2 {
     width: 30vw;
     height: 75vh;
     margin-left: 20px;
-    border-radius: 10px;
     overflow: hidden;
 }
 #poster-three img{
