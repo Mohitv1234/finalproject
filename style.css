@@ -423,7 +423,7 @@ nav h2 {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: rgb(41, 34, 34);
+    background-color: rgb(121, 83, 83);
     z-index: 9999999;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
